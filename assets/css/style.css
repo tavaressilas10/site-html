@@ -1,0 +1,115 @@
+.center {
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+
+#menu li {
+    display: inline;
+    padding: 16px;
+
+}
+
+#menu li a:hover {
+    color: gray;
+    font-size: 80px;
+}
+
+.p-30 {
+    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.p-40 {
+    font-size: 60px;
+}
+
+.p-40:hover {
+    font-size: 100px;
+}
+
+
+.tm-social {
+    width: 50px;
+    height: 50px;
+
+}
+
+.tm-social:hover {
+    width: 60px;
+    height: 60px;
+
+}
+.br-50 {
+    border-radius: 40%;
+    padding: 30px;   
+}
+.wh-250 {
+    width: 250px;
+    height: 250px;
+    filter: blur(2px);
+    cursor: pointer;
+    border: 10px solid transparent;
+}
+
+.wh-250:hover {
+    width: 400px;
+    height: 400px;
+    opacity: 10.0;
+    transition: all 0.20s;
+    cursor: pointer;
+    filter: blur(0px);
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+    border: 10px solid black;
+    border-radius: 50%;
+}
+.mb-50 {
+    margin-bottom: 30px;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.left{
+
+    left: 100%;
+}
+
+
+
+
+/*
+.paragrafo {
+    font-size: 2.0rem;
+    color: brown;
+
+}
+ul > li{
+color: aqua;
+
+}
+
+
+
+.algo chama a classe 
+# chama o id 
+color sempre para alterar a cor da letra 
+backgrand color para mudar o fundo
+  */
