@@ -22,15 +22,42 @@
         </ul>
     </div>
 
-    <div class="center" >
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14698.779918519303!2d-43.378297257147224!3d-22.924618700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd9f6fb377a2b%3A0x50afaf58cd15b80a!2sRestaurante%20Fant%C3%A1stico%20-%20Fusion%20Food!5e0!3m2!1spt-BR!2sbr!4v1667935972505!5m2!1spt-BR!2sbr"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-  
-            <p> ligue ja 4002 8922 </p>
+    <div class="container mb-50">
+
+        <div>
+            <form>
+                <label for="nome">Nome: </label>
+                <br>
+                <input type="text" id="nome" onkeyup="validaNome()">
+                <div id="txtNome">
+
+                </div>
+                <br>
+                <label for="email">Email: </label>
+                <br>
+                <input type="email" id="email" onkeyup="validaEmail()">
+                <div id="txtEmail">
+
+                </div>
+                <br>
+                <label for="assunto">Assunto: </label>
+                <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+                <div id="txtAssunto">
+
+                </div>
+                <br>
+                <br>
+                <button onclick="enviar()">Enviar</button>
+            </form>
         </div>
-    
+
+        <div class="ml-50"> 
+            <iframe src=    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.6805887832807!2d-43.3732000858862!3d-22.92514924428808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd8f645b0ea53%3A0x67aeb208f366db8b!2sUniversidade%20Est%C3%A1cio%20de%20S%C3%A1%20-%20Campus%20R9%20Taquara!5e0!3m2!1spt-BR!2sbr!4v1668704226594!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" id="mapa" onmousemove="mapaZoom()" onmouseout="mapaNormal()" ></iframe>
+        </div>
+        <script src="assets/js/script.js"></script>
 </body>
 
 </html>

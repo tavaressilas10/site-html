@@ -1,6 +1,6 @@
 .center {
     text-align: center;
-
+    
 }
 
 .container {
@@ -87,12 +87,13 @@
     text-align: justify;
 }
 
-.left{
-
-    left: 100%;
+#right{
+    right: 100%;
 }
 
-
+.ml-50 {
+    margin-left: 50px;
+}
 
 
 /*
