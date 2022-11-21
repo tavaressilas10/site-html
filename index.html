@@ -7,29 +7,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Silas</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="center">
-        <ul id="menu">
-            <li>
-                <a href="index.html">Inicio</a>
-            </li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand text-white" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <li>
-                <a href="contato.html">Contato</a>
-            </li>
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="contato.html">Contato <span class="sr-only">(página
+                            atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Sobre Nós</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Ação</a>
+                        <a class="dropdown-item" href="#">Outra ação</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Algo mais aqui</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </nav>
 
-
-            <a href="https://www.facebook.com"> <img class="tm-social" src="assets/img/face.png" alt="Logo face"></a>
-            <a href="https://www.instagram.com"> <img class="tm-social" src="assets/im   g/insta.png" alt="Logo insta"></a>
-            <a href="https://www.linkedin.com"> <img class="tm-social" src="assets/img/lk.png" alt="Logo face"> </a>
-
-        </ul>
-    </div>
+ 
+    <br>
+    <br>
 
     <div class="conteiner center">
-
         <h1> <span class="p-40">Site</span> <span class="p-40">para</span> <span class="p-40">Assistir</span> <span
                 class="p-40">Todo</span> <span class="p-40">mundo</span> <span class="p-40">odeia</span> <span
                 class="p-40">o</span> <span class="p-40">Chris</span> </h1>
@@ -81,11 +104,11 @@
                 src="https://miro.medium.com/max/400/1*ipDEbUTIgWQX10avW616jQ.jpeg" alt=""></a>
     </div>
 
-
-
-
     <div class="container mb-50">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/3kfx_fBB7lU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3kfx_fBB7lU" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
     </div>
 
     <footer>
@@ -96,6 +119,17 @@
         </div>
         <p class="center">Todos os direitos são reservados: Silas Tavares &copy;</p>
     </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
